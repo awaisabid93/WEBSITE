@@ -1,0 +1,640 @@
+
+/* to set the background image */
+body{
+    background-image: url("OCEAN.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    background-size: cover;
+}
+/* to put the navigation in to the middle */
+#nav {
+    top: 250px;
+    width: 100%;
+    height: 100px;
+    margin: 0px auto;
+    text-align: center;
+    /* border-right: 20px blueviolet; */
+    
+}
+/* to set down the dropdown menu */
+#nav ul li{
+    float: left;
+    color: white;
+    background-color: black;
+    width: 250px;
+    list-style: none;
+    font-size: 25px;
+    font-family: fantasy;
+    height: 50px;
+    line-height: 50px;
+    opacity: 0.5;
+    border-right: 1px solid blueviolet;
+    margin-top: 20px;
+    letter-spacing: 2px;
+}
+
+/* to change the colour when cursor point on specifice li */
+#nav ul li:hover{
+    background-color: greenyellow;
+    opacity: 0.9;
+}
+/* to make default home button is active */
+#nav .active{
+    background-color: greenyellow;
+}
+
+.mainpage { 
+    text-align: center;
+    font-size: 25px;
+    font-family: fantasy;
+    background-color: greenyellow;
+    opacity: 0.7;
+    letter-spacing: 2px; 
+    line-height: 60px;
+    
+}
+
+
+.slider {
+    width: 60%;
+    height: 300px;
+    position: absolute;
+    top: 60%;
+    left: 20%;
+    opacity: 0.8;
+    background-size: 100% 100%;
+    /* box-shadow: 1px 2px 10px 6px greenyellow; */
+    animation: sliders 11s infinite linear;
+    }
+
+    @keyframes sliders {
+        0%{background-image:  url('news.jpg')}
+        25%{background-image: url("header.jpg");}
+        55%{background-image: url("2-slider.jpg");}
+        75%{background-image: url("3-slider.png");}
+       
+        
+    }
+
+    /* latest news first thing */
+    .Lnews1 {
+        
+        top: 14%;
+        left: 2%;
+        position: absolute;
+        box-shadow: 1px 2px 10px 4px yellowgreen;
+        
+    }
+    #first {
+        color: black;
+        background-color:burlywood;
+        position: absolute
+    }
+
+  
+    .Lnews2 {
+      
+        position: absolute;
+        top: 14%;
+        left: 30%;
+        box-shadow: 1px 2px 10px 4px yellowgreen;
+        /* box-shadow: 1px 2px 10px 5px greenyellow; */}
+    #Second {
+            color: black;
+            background-color:burlywood;
+            position: absolute;
+        }    
+        
+    .Lnews3 {
+      
+            position: absolute;
+            top: 14%;
+            left: 60%;
+            box-shadow: 1px 2px 10px 4px yellowgreen;
+        
+            
+           
+            /* box-shadow: 1px 2px 10px 5px greenyellow; */
+      }
+
+    #Third {
+        color: black;
+        background-color:burlywood;
+        position: absolute;
+    }
+    
+
+
+/* .large {
+    text-align: center;
+    font-size: 40px;
+    font-family: fantasy; 
+    color: black;
+    background-color: aquamarine;
+    opacity: 0.8; */
+
+
+
+/* .animtion{ */
+/* animation:slider 9s infinite linear */
+   /* margin-top: 90px;
+   margin-left: 30px;
+   width: 100px;
+    */
+   
+
+    .Lnews4 {
+        
+        top: 70%;
+        left: 2%;
+        position: absolute;
+        box-shadow: 1px 2px 10px 4px yellowgreen;
+        
+    }
+    #first {
+        color: black;
+        background-color:burlywood;
+        position: absolute
+    }
+
+  
+    .Lnews5 {
+      
+        position: absolute;
+        top: 70%;
+        left: 30%;
+        box-shadow: 1px 2px 10px 4px yellowgreen;
+        /* box-shadow: 1px 2px 10px 5px greenyellow; */}
+    #Second {
+            color: black;
+            background-color:burlywood;
+            position: absolute;
+        }    
+        
+    .Lnews6 {
+      
+            position: absolute;
+            top: 70%;
+            left: 60%;
+            box-shadow: 1px 2px 10px 4px yellowgreen;
+        
+            
+           
+            /* box-shadow: 1px 2px 10px 5px greenyellow; */
+      }
+
+    #Third {
+        color: black;
+        background-color:burlywood;
+        position: absolute;
+    }
+
+
+
+
+    .Wnews1 {
+        
+        top: 14%;
+        left: 2%;
+        position: absolute;
+        box-shadow: 1px 2px 10px 4px yellowgreen;
+        
+    }
+    #first {
+        color: black;
+        background-color:burlywood;
+        position: absolute
+    }
+
+  
+    .Wnews2 {
+      
+        position: absolute;
+        top: 14%;
+        left: 30%;
+        box-shadow: 1px 2px 10px 4px yellowgreen;
+        /* box-shadow: 1px 2px 10px 5px greenyellow; */}
+    #Second {
+            color: black;
+            background-color:burlywood;
+            position: absolute;
+        }    
+        
+    .Wnews3 {
+      
+            position: absolute;
+            top: 14%;
+            left: 60%;
+            box-shadow: 1px 2px 10px 4px yellowgreen;
+        
+            
+           
+            /* box-shadow: 1px 2px 10px 5px greenyellow; */
+      }
+
+    #Third {
+        color: black;
+        background-color:burlywood;
+        position: absolute;
+    }
+    
+
+
+/* .large {
+    text-align: center;
+    font-size: 40px;
+    font-family: fantasy; 
+    color: black;
+    background-color: aquamarine;
+    opacity: 0.8; */
+
+
+
+/* .animtion{ */
+/* animation:slider 9s infinite linear */
+   /* margin-top: 90px;
+   margin-left: 30px;
+   width: 100px;
+    */
+   
+
+    .Wnews4 {
+        
+        top: 70%;
+        left: 2%;
+        position: absolute;
+        box-shadow: 1px 2px 10px 4px yellowgreen;
+        
+    }
+    #first {
+        color: black;
+        background-color:burlywood;
+        position: absolute
+    }
+
+  
+    .Wnews5 {
+      
+        position: absolute;
+        top: 70%;
+        left: 30%;
+        box-shadow: 1px 2px 10px 4px yellowgreen;
+        /* box-shadow: 1px 2px 10px 5px greenyellow; */}
+    #Second {
+            color: black;
+            background-color:burlywood;
+            position: absolute;
+        }    
+        
+    .Wnews6 {
+      
+            position: absolute;
+            top: 70%;
+            left: 60%;
+            box-shadow: 1px 2px 10px 4px yellowgreen;
+        
+            
+           
+            /* box-shadow: 1px 2px 10px 5px greenyellow; */
+      }
+
+    #Third {
+        color: black;
+        background-color:burlywood;
+        position: absolute;
+    }
+    
+
+
+
+
+
+    .Snews1 {
+        
+        top: 14%;
+        left: 2%;
+        position: absolute;
+        box-shadow: 1px 2px 10px 4px yellowgreen;
+        
+    }
+    #first {
+        color: black;
+        background-color:burlywood;
+        position: absolute
+    }
+
+  
+    .Snews2 {
+      
+        position: absolute;
+        top: 14%;
+        left: 30%;
+        box-shadow: 1px 2px 10px 4px yellowgreen;
+        /* box-shadow: 1px 2px 10px 5px greenyellow; */}
+    #Second {
+            color: black;
+            background-color:burlywood;
+            position: absolute;
+        }    
+        
+    .Snews3 {
+      
+            position: absolute;
+            top: 14%;
+            left: 60%;
+            box-shadow: 1px 2px 10px 4px yellowgreen;
+        
+            
+           
+            /* box-shadow: 1px 2px 10px 5px greenyellow; */
+      }
+
+    #Third {
+        color: black;
+        background-color:burlywood;
+        position: absolute;
+    }
+    
+
+
+/* .large {
+    text-align: center;
+    font-size: 40px;
+    font-family: fantasy; 
+    color: black;
+    background-color: aquamarine;
+    opacity: 0.8; */
+
+
+
+/* .animtion{ */
+/* animation:slider 9s infinite linear */
+   /* margin-top: 90px;
+   margin-left: 30px;
+   width: 100px;
+    */
+   
+
+    .Snews4 {
+        
+        top: 70%;
+        left: 2%;
+        position: absolute;
+        box-shadow: 1px 2px 10px 4px yellowgreen;
+        
+    }
+    #first {
+        color: black;
+        background-color:burlywood;
+        position: absolute
+    }
+
+  
+    .Snews5 {
+      
+        position: absolute;
+        top: 70%;
+        left: 30%;
+        box-shadow: 1px 2px 10px 4px yellowgreen;
+        /* box-shadow: 1px 2px 10px 5px greenyellow; */}
+    #Second {
+            color: black;
+            background-color:burlywood;
+            position: absolute;
+        }    
+        
+    .Snews6 {
+      
+            position: absolute;
+            top: 70%;
+            left: 60%;
+            box-shadow: 1px 2px 10px 4px yellowgreen;
+        
+            
+           
+            /* box-shadow: 1px 2px 10px 5px greenyellow; */
+      }
+
+    #Third {
+        color: black;
+        background-color:burlywood;
+        position: absolute;
+    }
+  
+
+
+
+
+
+
+
+    .Sbnews1 {
+        
+        top: 14%;
+        left: 2%;
+        position: absolute;
+        box-shadow: 1px 2px 10px 4px yellowgreen;
+        
+    }
+    #first {
+        color: black;
+        background-color:burlywood;
+        position: absolute
+    }
+
+  
+    .Sbnews2 {
+      
+        position: absolute;
+        top: 14%;
+        left: 30%;
+        box-shadow: 1px 2px 10px 4px yellowgreen;
+        /* box-shadow: 1px 2px 10px 5px greenyellow; */}
+    #Second {
+            color: black;
+            background-color:burlywood;
+            position: absolute;
+        }    
+        
+    .Sbnews3 {
+      
+            position: absolute;
+            top: 14%;
+            left: 60%;
+            box-shadow: 1px 2px 10px 4px yellowgreen;
+        
+            
+           
+            /* box-shadow: 1px 2px 10px 5px greenyellow; */
+      }
+
+    #Third {
+        color: black;
+        background-color:burlywood;
+        position: absolute;
+    }
+    
+
+
+/* .large {
+    text-align: center;
+    font-size: 40px;
+    font-family: fantasy; 
+    color: black;
+    background-color: aquamarine;
+    opacity: 0.8; */
+
+
+
+/* .animtion{ */
+/* animation:slider 9s infinite linear */
+   /* margin-top: 90px;
+   margin-left: 30px;
+   width: 100px;
+    */
+   
+
+    .Sbnews4 {
+        
+        top: 70%;
+        left: 2%;
+        position: absolute;
+        box-shadow: 1px 2px 10px 4px yellowgreen;
+        
+    }
+    #first {
+        color: black;
+        background-color:burlywood;
+        position: absolute
+    }
+
+  
+    .Sbnews5 {
+      
+        position: absolute;
+        top: 70%;
+        left: 30%;
+        box-shadow: 1px 2px 10px 4px yellowgreen;
+        /* box-shadow: 1px 2px 10px 5px greenyellow; */}
+    #Second {
+            color: black;
+            background-color:burlywood;
+            position: absolute;
+        }    
+        
+    .Sbnews6 {
+      
+            position: absolute;
+            top: 70%;
+            left: 60%;
+            box-shadow: 1px 2px 10px 4px yellowgreen;
+        
+            
+           
+            /* box-shadow: 1px 2px 10px 5px greenyellow; */
+      }
+
+    #Third {
+        color: black;
+        background-color:burlywood;
+        position: absolute;
+    }
+
+
+
+
+
+    .fb {
+        color: lightblue;
+        top: 60%;
+        left: 50%;
+        position: relative;
+        font-size: 100px;
+    }
+
+    .tw {
+       
+        color: blue;
+        top: 60%;
+        left: 35%;
+        position: relative;
+        font-size: 100px;
+        
+    }
+
+    .yt {
+        top: 60%;
+        left: 20%;
+        position: relative;
+        font-size: 100px;
+        color: red;
+    }
+
+    .in {
+        top: 60%;
+        left: 5%;
+        position: relative;
+        font-size: 100px;
+        color: pink;
+    }
+  
+   
+   .fb :hover{
+       background-color: blue;
+       /* opacity: 0.7; */
+       font-size: 110px;
+       border-radius: 200px; }
+
+
+   
+
+   .tw :hover {
+    background-color: lightblue;
+    /* opacity: 0.7; */
+    font-size: 110px;
+    border-radius: 200px;
+     
+   }
+
+   .yt :hover {
+    background-color: lightcoral;
+    /* opacity: 0.7; */
+    font-size: 110px;
+    border-radius: 110px;
+   }
+
+
+   .in :hover {
+    background-color: red;
+    /* opacity: 0.7; */
+    font-size: 110px;
+    border-radius: 110px;
+   }
+
+.design {
+     background-color: black;
+     font-size: 45px;
+     color: white;
+     top: 57%;
+     position:relative;
+     font-family: fantasy;
+}
+
+#i{
+      
+      color: white;
+      font-size: 20px;
+      top: 45%;
+      position: relative;
+      text-align: center;
+      
+}
+
+.main{
+    background-color: greenyellow;
+    position: absolute;
+    left: 2%;
+    opacity: 0.7;
+
+}
